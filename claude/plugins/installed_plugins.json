@@ -1,0 +1,1167 @@
+{
+  "version": 2,
+  "plugins": {
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/frontend-design/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T09:00:47.272Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/code-review/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:17:15.554Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/context7/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:17:37.257Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "explanatory-output-style@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/explanatory-output-style/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:17:48.912Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/feature-dev/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:18:08.080Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "greptile@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/greptile/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:18:54.798Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "hookify@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/hookify/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:19:13.605Z",
+        "lastUpdated": "2025-12-19T08:04:43.324Z",
+        "isLocal": true
+      }
+    ],
+    "linear@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/linear/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:19:44.630Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "ralph-wiggum@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/ralph-wiggum/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:20:23.826Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/security-guidance/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-16T10:20:38.589Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "sentry@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/sentry/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-16T10:20:51.506Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "isLocal": true
+      }
+    ],
+    "vercel@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/vercel/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:10.287Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "ae067751b4f42c97d13054211657275029ca8b6d",
+        "isLocal": false
+      }
+    ],
+    "accessibility-compliance@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/accessibility-compliance/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "agent-orchestration@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/agent-orchestration/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "api-scaffolding@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/api-scaffolding/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "api-testing-observability@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/api-testing-observability/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "application-performance@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/application-performance/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "arm-cortex-microcontrollers@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/arm-cortex-microcontrollers/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "backend-api-security@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/backend-api-security/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "backend-development@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/backend-development/1.2.4",
+        "version": "1.2.4",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "blockchain-web3@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/blockchain-web3/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "business-analytics@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/business-analytics/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "c4-architecture@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/c4-architecture/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "cicd-automation@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/cicd-automation/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "cloud-infrastructure@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/cloud-infrastructure/1.2.2",
+        "version": "1.2.2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "code-documentation@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/code-documentation/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "code-refactoring@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/code-refactoring/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "code-review-ai@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/code-review-ai/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "codebase-cleanup@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/codebase-cleanup/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "comprehensive-review@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/comprehensive-review/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "content-marketing@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/content-marketing/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "context-management@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/context-management/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "customer-sales-automation@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/customer-sales-automation/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "data-engineering@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/data-engineering/1.2.2",
+        "version": "1.2.2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "data-validation-suite@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/data-validation-suite/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "database-cloud-optimization@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/database-cloud-optimization/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "database-design@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/database-design/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "database-migrations@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/database-migrations/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "debugging-toolkit@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/debugging-toolkit/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "dependency-management@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/dependency-management/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "deployment-strategies@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/deployment-strategies/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "deployment-validation@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/deployment-validation/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "developer-essentials@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/developer-essentials/1.0.1",
+        "version": "1.0.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "distributed-debugging@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/distributed-debugging/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "documentation-generation@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/documentation-generation/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "error-debugging@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/error-debugging/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "error-diagnostics@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/error-diagnostics/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "framework-migration@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/framework-migration/1.2.2",
+        "version": "1.2.2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "frontend-mobile-development@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/frontend-mobile-development/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "frontend-mobile-security@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/frontend-mobile-security/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "full-stack-orchestration@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/full-stack-orchestration/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "functional-programming@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/functional-programming/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "game-development@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/game-development/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "git-pr-workflows@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/git-pr-workflows/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "hr-legal-compliance@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/hr-legal-compliance/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "incident-response@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/incident-response/1.2.2",
+        "version": "1.2.2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "javascript-typescript@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/javascript-typescript/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "julia-development@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/julia-development/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "jvm-languages@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/jvm-languages/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "kubernetes-operations@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/kubernetes-operations/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "llm-application-dev@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/llm-application-dev/1.2.2",
+        "version": "1.2.2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "machine-learning-ops@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/machine-learning-ops/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "multi-platform-apps@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/multi-platform-apps/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "observability-monitoring@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/observability-monitoring/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "payment-processing@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/payment-processing/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "performance-testing-review@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/performance-testing-review/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "python-development@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/python-development/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "quantitative-trading@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/quantitative-trading/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "security-compliance@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/security-compliance/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "security-scanning@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/security-scanning/1.2.3",
+        "version": "1.2.3",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "seo-analysis-monitoring@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/seo-analysis-monitoring/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "seo-content-creation@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/seo-content-creation/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "seo-technical-optimization@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/seo-technical-optimization/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "shell-scripting@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/shell-scripting/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "systems-programming@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/systems-programming/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "tdd-workflows@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/tdd-workflows/1.2.1",
+        "version": "1.2.1",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "team-collaboration@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/team-collaboration/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "unit-testing@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/unit-testing/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "web-scripting@claude-code-workflows": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-code-workflows/web-scripting/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "e4dade12847a99d277d81192c2966e9b61c0d3f1",
+        "isLocal": true
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/github/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "serena@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/serena/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "commit-commands@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/commit-commands/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "agent-sdk-dev@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/agent-sdk-dev/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "pr-review-toolkit@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/playwright/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "plugin-dev@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/plugin-dev/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "learning-output-style@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/learning-output-style/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "gitlab@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/gitlab/6d3752c000e2",
+        "version": "6d3752c000e2",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "gopls-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/gopls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "csharp-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/csharp-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "php-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/php-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "stripe@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/stripe/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-28T10:23:30.732Z",
+        "lastUpdated": "2025-12-28T10:23:30.732Z",
+        "gitCommitSha": "6d3752c000e2b3d0e6137bd7adb04895d6f40f14",
+        "isLocal": true
+      }
+    ],
+    "chrome-devtools-mcp@chrome-devtools-plugins": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/chrome-devtools-plugins/chrome-devtools-mcp/latest",
+        "version": "latest",
+        "installedAt": "2025-12-28T10:25:00.448Z",
+        "lastUpdated": "2025-12-28T10:25:28.890Z",
+        "gitCommitSha": "28b8ff816461760c82e9b19b70f288bc7fa2fa38",
+        "isLocal": false
+      }
+    ],
+    "taskmaster@taskmaster": [
+      {
+        "scope": "project",
+        "projectPath": "/Users/pierre-louiscoton",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/taskmaster/taskmaster/8d4ac0b6469c",
+        "version": "8d4ac0b6469c",
+        "installedAt": "2025-12-28T10:25:28.890Z",
+        "lastUpdated": "2025-12-28T10:25:28.890Z",
+        "gitCommitSha": "8d4ac0b6469c5a7029c1031926e8c12aaee189d4",
+        "isLocal": true
+      }
+    ],
+    "claude-mem@thedotmack": [
+      {
+        "scope": "user",
+        "installPath": "/Users/pierre-louiscoton/.claude/plugins/cache/thedotmack/claude-mem/8.5.1",
+        "version": "8.5.1",
+        "installedAt": "2025-12-30T07:49:42.995Z",
+        "lastUpdated": "2025-12-30T07:49:42.995Z",
+        "isLocal": true
+      }
+    ]
+  }
+}

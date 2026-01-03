@@ -1,0 +1,5 @@
+registry:
+  docker:
+    ref: ""
+  playwright:
+    ref: ""

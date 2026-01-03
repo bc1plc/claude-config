@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+._*
+
+# Sensitive data
+*.local.json
+*credentials*
+*secrets*
+*.env
+.env*
+
+# Claude session data (don't sync)
+history.jsonl
+stats-cache.json
+session-env/
+todos/
+debug/
+file-history/
+plans/
+shell-snapshots/
+security_warnings_state_*.json
+telemetry/
+statsig/
+
+# Plugin cache (will be re-downloaded)
+claude/plugins/cache/
+claude/plugins/marketplaces/
+claude/plugins/known_marketplaces.json
+claude/plugins/install-counts-cache.json
+
+# Docker MCP catalogs (large, auto-downloaded)
+docker-mcp/catalogs/docker-mcp.yaml
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
