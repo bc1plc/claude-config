@@ -1,0 +1,78 @@
+# Snippet: En-tetes de Securite Standard
+# Conforme aux recommandations OWASP
+# Usage: import security_headers
+
+(security_headers) {
+    header {
+        # =================================================================
+        # TRANSPORT SECURITY
+        # =================================================================
+
+        # HSTS - Force HTTPS pendant 1 an
+        # includeSubDomains: applique aussi aux sous-domaines
+        # preload: permet l'inclusion dans les listes HSTS des navigateurs
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+        # =================================================================
+        # CONTENT SECURITY
+        # =================================================================
+
+        # Empeche le navigateur de deviner le type MIME
+        # Protection contre les attaques de type MIME confusion
+        X-Content-Type-Options "nosniff"
+
+        # Empeche l'inclusion de la page dans une iframe
+        # Protection contre le clickjacking
+        X-Frame-Options "DENY"
+
+        # Protection XSS legacy (navigateurs anciens)
+        X-XSS-Protection "1; mode=block"
+
+        # =================================================================
+        # PRIVACY & REFERRER
+        # =================================================================
+
+        # Controle les informations envoyees dans le header Referer
+        # strict-origin-when-cross-origin: envoie l'origine uniquement
+        Referrer-Policy "strict-origin-when-cross-origin"
+
+        # =================================================================
+        # FEATURE POLICY / PERMISSIONS POLICY
+        # =================================================================
+
+        # Desactive les APIs sensibles du navigateur
+        Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+
+        # =================================================================
+        # INFORMATION HIDING
+        # =================================================================
+
+        # Supprime les en-tetes revelant des informations techniques
+        -Server
+        -X-Powered-By
+        -X-AspNet-Version
+        -X-AspNetMvc-Version
+        -X-Runtime
+        -X-Version
+    }
+}
+
+# =================================================================
+# SNIPPET: Content Security Policy Stricte
+# =================================================================
+
+(strict_csp) {
+    header {
+        Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
+    }
+}
+
+# =================================================================
+# SNIPPET: CSP pour applications avec scripts tiers (moins stricte)
+# =================================================================
+
+(relaxed_csp) {
+    header {
+        Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-ancestors 'none';"
+    }
+}

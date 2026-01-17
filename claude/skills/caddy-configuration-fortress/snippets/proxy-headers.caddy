@@ -1,0 +1,82 @@
+# Snippet: Configuration Reverse Proxy Securisee
+# Nettoyage des en-tetes et transmission du contexte client
+# Usage: Integrer dans les blocs reverse_proxy
+
+# =================================================================
+# SNIPPET: Proxy standard avec nettoyage
+# =================================================================
+
+(proxy_security) {
+    # Transmission des informations client reelles au backend
+    header_up X-Real-IP {remote_host}
+    header_up X-Forwarded-For {remote_host}
+    header_up X-Forwarded-Proto {scheme}
+    header_up X-Forwarded-Host {host}
+
+    # Suppression des en-tetes sensibles des reponses backend
+    header_down -Server
+    header_down -X-Powered-By
+    header_down -X-AspNet-Version
+    header_down -X-AspNetMvc-Version
+    header_down -X-Runtime
+    header_down -X-Version
+    header_down -X-Generator
+
+    # Configuration transport HTTP securisee
+    transport http {
+        dial_timeout 5s
+        response_header_timeout 30s
+        read_buffer 16KB
+        write_buffer 16KB
+    }
+}
+
+# =================================================================
+# SNIPPET: Proxy avec health checks
+# =================================================================
+
+(proxy_with_health) {
+    lb_policy round_robin
+
+    health_uri /health
+    health_interval 30s
+    health_timeout 5s
+    health_status 2xx
+
+    # Nettoyage standard
+    header_down -Server
+    header_down -X-Powered-By
+}
+
+# =================================================================
+# SNIPPET: Proxy WebSocket
+# =================================================================
+
+(websocket_proxy) {
+    header_up X-Real-IP {remote_host}
+    header_up X-Forwarded-For {remote_host}
+    header_up X-Forwarded-Proto {scheme}
+
+    # Support WebSocket
+    header_up Connection {http.request.header.Connection}
+    header_up Upgrade {http.request.header.Upgrade}
+
+    # Timeouts adaptes aux connexions longues
+    transport http {
+        dial_timeout 5s
+        read_timeout 0
+        write_timeout 0
+    }
+}
+
+# =================================================================
+# EXEMPLE D'UTILISATION
+# =================================================================
+#
+# reverse_proxy backend:3000 {
+#     import proxy_security
+# }
+#
+# reverse_proxy /ws/* ws-backend:8080 {
+#     import websocket_proxy
+# }
