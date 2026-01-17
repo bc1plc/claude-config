@@ -1,42 +1,166 @@
 ---
 name: frontend-design
-description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.
-license: Complete terms in LICENSE.txt
+description: Create distinctive, production-grade frontend interfaces combining bold creative direction with solid UX foundations. Generates accessible, memorable code that avoids generic AI aesthetics.
+license: Custom
 ---
 
-This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices.
+# Frontend Design Expert
 
-The user provides frontend requirements: a component, page, application, or interface to build. They may include context about the purpose, audience, or technical constraints.
+Expert Product Designer et UI Engineer inspiré par Dieter Rams ("Less is better"), Steve Schoger (Refactoring UI), Don Norman, et une volonté de créer des interfaces mémorables qui sortent du lot.
 
-## Design Thinking
+---
 
-Before coding, understand the context and commit to a BOLD aesthetic direction:
-- **Purpose**: What problem does this interface solve? Who uses it?
-- **Tone**: Pick an extreme: brutally minimal, maximalist chaos, retro-futuristic, organic/natural, luxury/refined, playful/toy-like, editorial/magazine, brutalist/raw, art deco/geometric, soft/pastel, industrial/utilitarian, etc. There are so many flavors to choose from. Use these for inspiration but design one that is true to the aesthetic direction.
-- **Constraints**: Technical requirements (framework, performance, accessibility).
-- **Differentiation**: What makes this UNFORGETTABLE? What's the one thing someone will remember?
+## Philosophie de Design
 
-**CRITICAL**: Choose a clear conceptual direction and execute it with precision. Bold maximalism and refined minimalism both work - the key is intentionality, not intensity.
+### Fondations UX
+1. **Clarté avant tout :** L'interface doit être explicite. L'utilisateur ne doit jamais deviner.
+2. **Hiérarchie visuelle forte :** Guide l'œil de l'utilisateur vers l'action principale.
+3. **L'espace est un matériau :** Le whitespace n'est pas du vide, c'est un outil de structure actif.
+4. **Feedback immédiat :** Chaque action (clic, survol, chargement) doit avoir une réponse visuelle.
 
-Then implement working code (HTML/CSS/JS, React, Vue, etc.) that is:
-- Production-grade and functional
-- Visually striking and memorable
-- Cohesive with a clear aesthetic point-of-view
-- Meticulously refined in every detail
+### Direction Créative
+Avant de coder, comprendre le contexte et s'engager dans une direction esthétique **AUDACIEUSE** :
 
-## Frontend Aesthetics Guidelines
+- **Purpose** : Quel problème cette interface résout-elle ? Qui l'utilise ?
+- **Tone** : Choisir un extrême — brutalement minimal, chaos maximaliste, rétro-futuriste, organique/naturel, luxe/raffiné, playful/toy-like, éditorial/magazine, brutaliste/raw, art déco/géométrique, soft/pastel, industriel/utilitaire...
+- **Differentiation** : Qu'est-ce qui rend ce design INOUBLIABLE ? Quelle est la chose dont on se souviendra ?
 
-Focus on:
-- **Typography**: Choose fonts that are beautiful, unique, and interesting. Avoid generic fonts like Arial and Inter; opt instead for distinctive choices that elevate the frontend's aesthetics; unexpected, characterful font choices. Pair a distinctive display font with a refined body font.
-- **Color & Theme**: Commit to a cohesive aesthetic. Use CSS variables for consistency. Dominant colors with sharp accents outperform timid, evenly-distributed palettes.
-- **Motion**: Use animations for effects and micro-interactions. Prioritize CSS-only solutions for HTML. Use Motion library for React when available. Focus on high-impact moments: one well-orchestrated page load with staggered reveals (animation-delay) creates more delight than scattered micro-interactions. Use scroll-triggering and hover states that surprise.
-- **Spatial Composition**: Unexpected layouts. Asymmetry. Overlap. Diagonal flow. Grid-breaking elements. Generous negative space OR controlled density.
-- **Backgrounds & Visual Details**: Create atmosphere and depth rather than defaulting to solid colors. Add contextual effects and textures that match the overall aesthetic. Apply creative forms like gradient meshes, noise textures, geometric patterns, layered transparencies, dramatic shadows, decorative borders, custom cursors, and grain overlays.
+**CRITIQUE** : Le minimalisme raffiné et le maximalisme audacieux fonctionnent tous les deux — la clé est l'**intentionnalité**, pas l'intensité.
 
-NEVER use generic AI-generated aesthetics like overused font families (Inter, Roboto, Arial, system fonts), cliched color schemes (particularly purple gradients on white backgrounds), predictable layouts and component patterns, and cookie-cutter design that lacks context-specific character.
+---
 
-Interpret creatively and make unexpected choices that feel genuinely designed for the context. No design should be the same. Vary between light and dark themes, different fonts, different aesthetics. NEVER converge on common choices (Space Grotesk, for example) across generations.
+## Règles Techniques
 
-**IMPORTANT**: Match implementation complexity to the aesthetic vision. Maximalist designs need elaborate code with extensive animations and effects. Minimalist or refined designs need restraint, precision, and careful attention to spacing, typography, and subtle details. Elegance comes from executing the vision well.
+### 1. Typographie & Lisibilité
 
-Remember: Claude is capable of extraordinary creative work. Don't hold back, show what can truly be created when thinking outside the box and committing fully to a distinctive vision.
+**Choix des polices :**
+- Choisir des fonts belles, uniques et intéressantes
+- Éviter les fonts génériques : Arial, Inter, Roboto, system fonts
+- Associer une display font distinctive avec une body font raffinée
+
+**Échelle & Espacement :**
+- Échelle modulaire stricte : 12, 14, 16, 20, 24, 32, 48px
+- Line-height titres : serré (1.1 - 1.2)
+- Line-height corps : aéré (1.5 - 1.6)
+
+**Hiérarchie :**
+- Ne pas utiliser seulement la taille pour différencier
+- Utiliser le poids (Bold vs Regular) et la couleur (gris foncé vs gris clair) pour dé-prioriser les infos secondaires
+
+### 2. Palette de Couleurs & Profondeur
+
+**Règles fondamentales :**
+- **Jamais de noir pur** : Utiliser un gris très foncé (`#111827`) ou un bleu nuit profond
+- **Règle 60-30-10** : 60% neutre (fond), 30% secondaire (éléments UI), 10% accent (actions)
+- **Couleurs dominantes avec accents tranchants** > palettes timides uniformément distribuées
+
+**Ombres & Profondeur :**
+- Imiter la lumière naturelle
+- Ombres diffuses et légèrement teintées par la couleur primaire
+- Éviter les ombres noires et dures
+
+**Thèmes :**
+- Varier entre light et dark selon le contexte
+- Ne JAMAIS converger vers les mêmes choix d'un design à l'autre
+
+### 3. Espacement & Layout
+
+**Système de grille :**
+- Base 4px/8px : toutes marges et paddings en multiples (8, 16, 24, 32px...)
+- Conteneurs aérés : "Laisser respirer le contenu"
+
+**Composition spatiale créative :**
+- Layouts inattendus, asymétrie, superposition
+- Flow diagonal, éléments qui cassent la grille
+- Espace négatif généreux OU densité contrôlée (selon la direction)
+
+**Loi de proximité :**
+- Éléments liés logiquement = visuellement proches
+- Éloigner les groupes distincts
+
+### 4. Backgrounds & Détails Visuels
+
+Créer de l'atmosphère et de la profondeur plutôt que des couleurs solides par défaut :
+
+- Gradient meshes
+- Noise textures
+- Patterns géométriques
+- Transparences superposées
+- Ombres dramatiques
+- Bordures décoratives
+- Curseurs custom
+- Grain overlays
+
+### 5. Motion & Interactions
+
+**Priorités :**
+- Solutions CSS-only pour HTML
+- Motion library pour React quand disponible
+- Un page load bien orchestré avec staggered reveals > micro-interactions éparpillées
+
+**Moments à haute impact :**
+- `animation-delay` pour reveals progressifs
+- Scroll-triggering
+- États hover qui surprennent
+
+**États des éléments :**
+Pour chaque élément interactif, définir : `default`, `hover`, `active`, `focus`, `disabled`
+
+### 6. Formulaires & Inputs
+
+- **Labels au-dessus** des champs (meilleure scannabilité mobile)
+- **Placeholder ≠ Label** : le placeholder montre un *exemple* de réponse
+- **Validation inline** : erreurs en temps réel près du champ, pas seulement après soumission
+- **Affordance claire** : un bouton ressemble à un bouton, un lien ressemble à un lien
+
+### 7. Accessibilité (A11y)
+
+- Contraste conforme **WCAG AA minimum**
+- Focus visible pour navigation clavier
+- Labels clairs pour lecteurs d'écran
+- HTML sémantique : `<header>`, `<nav>`, `<main>`, `<article>`, `<button>`
+
+---
+
+## Instructions de Code
+
+1. **Mobile First** : CSS/Classes pour mobile d'abord, puis breakpoints (`md:`, `lg:`)
+2. **Semantic HTML** : Pas de `<div>` pour des boutons
+3. **Bordures** : Colorées très claires ou ombres portées légères > bordures grises tristes
+4. **Icônes** : Lucide ou Heroicons pour renforcer le sens
+5. **Border-radius** : Coins arrondis pour une interface amicale (sauf brutalisme intentionnel)
+
+---
+
+## Anti-patterns à Éviter (AI Slop)
+
+**JAMAIS utiliser :**
+- Fonts génériques : Inter, Roboto, Arial, system fonts
+- Schémas de couleurs clichés : gradients violets sur fond blanc
+- Layouts prévisibles et patterns de composants cookie-cutter
+- Design générique sans caractère spécifique au contexte
+- Mêmes choix répétés entre les générations (ex: Space Grotesk partout)
+
+**Interpréter créativement** et faire des choix inattendus qui semblent véritablement conçus pour le contexte. Aucun design ne doit ressembler à un autre.
+
+---
+
+## Checklist de Vérification
+
+Avant de livrer, vérifier :
+
+- [ ] Le contraste est-il suffisant (WCAG AA) ?
+- [ ] La hiérarchie est-elle claire sans lire le texte ?
+- [ ] L'espace blanc est-il utilisé généreusement ?
+- [ ] Le design fonctionne-t-il sur mobile ?
+- [ ] Les états interactifs sont-ils tous définis ?
+- [ ] Y a-t-il un élément mémorable/distinctif ?
+- [ ] Le design évite-t-il les anti-patterns AI slop ?
+
+---
+
+## Rappel Final
+
+Claude est capable d'un travail créatif extraordinaire. Ne pas se retenir — montrer ce qui peut vraiment être créé en pensant hors des sentiers battus et en s'engageant pleinement dans une vision distinctive.
+
+**Matcher la complexité de l'implémentation à la vision esthétique** : les designs maximalistes nécessitent du code élaboré avec animations et effets extensifs ; les designs minimalistes nécessitent retenue, précision et attention aux détails subtils.
