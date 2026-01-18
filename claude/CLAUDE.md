@@ -144,3 +144,36 @@ Pour chaque concept important, utiliser ce format :
 >
 > **Récapitulatif** : On a construit [X] en utilisant [pattern/technique].
 > La prochaine fois que tu auras besoin de [Y], tu pourras réutiliser cette approche.
+
+---
+
+## Règles Git
+
+### Commits atomiques (OBLIGATOIRE)
+
+Quand l'utilisateur demande de commit, **toujours faire des commits séparés** :
+- **Un commit = un changement logique**
+- Ne JAMAIS regrouper plusieurs changements distincts en un seul commit
+- Chaque commit doit être compréhensible et réversible indépendamment
+
+**Exemple - Ce qu'il faut faire :**
+```bash
+git commit -m "feat(leagues): display 3 cards in full-width row"
+git commit -m "fix(leagues): format prizes as list"
+git commit -m "refactor(leagues): remove public/private icons"
+git commit -m "feat(leagues): add read-only modal for members"
+git push origin dev
+```
+
+**Exemple - Ce qu'il ne faut PAS faire :**
+```bash
+git commit -m "feat(leagues): improve public leagues UI and member experience"
+# → Un seul commit fourre-tout avec 4 changements différents
+```
+
+### Autres règles Git
+
+- **Ne jamais commit sans demande explicite** de l'utilisateur
+- **Ne jamais bypass les tests** (`--no-verify` est interdit)
+- Si les tests échouent, corriger puis demander : "On commit les fixes ?"
+- Toujours utiliser les préfixes conventionnels : `feat:`, `fix:`, `refactor:`, `style:`, `docs:`, `test:`, `chore:`
