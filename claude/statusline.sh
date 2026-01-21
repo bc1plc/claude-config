@@ -8,6 +8,14 @@ SESSION_ID=$(echo "$input" | jq -r '.session.id // .sessionId // empty')
 CTX_INPUT=$(echo "$input" | jq -r '.context_window.total_input_tokens // 0')
 CTX_OUTPUT=$(echo "$input" | jq -r '.context_window.total_output_tokens // 0')
 CTX_SIZE=$(echo "$input" | jq -r '.context_window.context_window_size // 200000')
+CWD=$(echo "$input" | jq -r '.cwd // empty')
+
+# Raccourcir le chemin (remplace $HOME par ~ et garde juste les 2 derniers dossiers)
+if [ -n "$CWD" ]; then
+    CWD_SHORT=$(echo "$CWD" | sed "s|^$HOME|~|" | awk -F'/' '{if(NF>3) print ".../"$(NF-1)"/"$NF; else print $0}')
+else
+    CWD_SHORT=""
+fi
 
 # Contexte %
 USAGE=$(echo "$input" | jq '.context_window.current_usage // null')
@@ -92,5 +100,9 @@ PYTHON
 SESSION_FMT=$(printf "%.2f" "$SESSION_COST")
 
 # Couleurs ANSI
-# Format: Model $Total/jour ($session) │ ~INM↓ ~OUTM↑ │ XX%
-printf "\033[36m${MODEL}\033[0m \033[33m\$${DAILY_TOTAL}\033[0m\033[90m/jour\033[0m \033[90m(\$${SESSION_FMT})\033[0m │ \033[32m~${EST_INPUT_M}M↓\033[0m \033[31m~${EST_OUTPUT_M}M↑\033[0m │ \033[35m${PERCENT}%%\033[0m"
+# Format: 📁 dossier │ Model $Total/jour ($session) │ ~INM↓ ~OUTM↑ │ XX%
+if [ -n "$CWD_SHORT" ]; then
+    printf "\033[94m📁 ${CWD_SHORT}\033[0m │ \033[36m${MODEL}\033[0m \033[33m\$${DAILY_TOTAL}\033[0m\033[90m/jour\033[0m \033[90m(\$${SESSION_FMT})\033[0m │ \033[32m~${EST_INPUT_M}M↓\033[0m \033[31m~${EST_OUTPUT_M}M↑\033[0m │ \033[35m${PERCENT}%%\033[0m"
+else
+    printf "\033[36m${MODEL}\033[0m \033[33m\$${DAILY_TOTAL}\033[0m\033[90m/jour\033[0m \033[90m(\$${SESSION_FMT})\033[0m │ \033[32m~${EST_INPUT_M}M↓\033[0m \033[31m~${EST_OUTPUT_M}M↑\033[0m │ \033[35m${PERCENT}%%\033[0m"
+fi
