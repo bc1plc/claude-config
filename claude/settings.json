@@ -81,6 +81,16 @@
         "run"
       ],
       "type": "stdio"
+    },
+    "hostinger-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "hostinger-api-mcp@latest"
+      ],
+      "env": {
+        "API_TOKEN": "kuHyzsibPmypNBytJ2I19zbkWE9B9GozWcJ4u6sB2ebd7057"
+      }
     }
   }
 }
