@@ -177,3 +177,65 @@ git commit -m "feat(leagues): improve public leagues UI and member experience"
 - **Ne jamais bypass les tests** (`--no-verify` est interdit)
 - Si les tests échouent, corriger puis demander : "On commit les fixes ?"
 - Toujours utiliser les préfixes conventionnels : `feat:`, `fix:`, `refactor:`, `style:`, `docs:`, `test:`, `chore:`
+
+---
+
+## VPS Steedex (Hostinger)
+
+**Accès SSH** :
+```bash
+ssh vps-steedex          # Via alias (recommandé)
+# ou
+ssh -p 14591 pierre@72.62.21.246
+```
+
+| Info | Valeur |
+|------|--------|
+| **IP** | `72.62.21.246` |
+| **Port SSH** | `14591` ⚠️ (pas 22 !) |
+| **User** | `pierre` |
+| **Alias SSH** | `vps-steedex` (configuré dans `~/.ssh/config`) |
+| **Path apps** | `/opt/steedex` |
+| **Docker Compose** | `docker compose` (plugin, pas `docker-compose`) |
+
+**Commandes utiles** :
+```bash
+# Status des containers
+docker ps -a --filter 'name=steedex'
+
+# Logs API
+docker logs steedex-api --tail 100 -f
+
+# Redémarrer un service
+cd /opt/steedex && docker compose restart api
+
+# Health checks
+curl https://api.steedex.io/health/ready   # Steedex (deep check DB+Redis)
+curl https://haraspilot.io/health          # Haraspilot
+
+# Logs du monitoring santé (cron toutes les 5 min)
+tail -f /var/log/health-monitor.log
+
+# Audit système (auditd) - toute l'activité est loggée
+audit-report summary   # Vue d'ensemble
+audit-report commands  # Dernières commandes exécutées
+audit-report files     # Modifications de fichiers
+audit-report logins    # Connexions SSH
+audit-report sudo      # Utilisation de sudo
+sudo ausearch -k command_exec -ts today   # Recherche manuelle
+```
+
+**Audit système** (auditd) :
+- Logs : `/var/log/audit/audit.log`
+- Config : `/etc/audit/rules.d/99-steedex-audit.rules`
+- Surveille : commandes, fichiers système, sudo, SSH, Docker, /opt/steedex
+
+**Logs web** (Caddy - IP, User-Agent, requêtes) :
+- Logs : `/var/log/caddy/*.log` (JSON)
+- Commandes :
+  - `web-logs api tail` - Dernières requêtes API
+  - `web-logs api ips` - Top IPs
+  - `web-logs api agents` - Top User-Agents
+  - `web-logs api errors` - Erreurs 4xx/5xx
+  - `web-logs api live` - Temps réel
+  - `web-logs summary` - Vue d'ensemble
