@@ -1,5 +1,7 @@
 {
-  "outputStyle": "Explanatory",
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
   "permissions": {
     "allow": [
       "Bash(ssh:*)",
@@ -72,6 +74,7 @@
     "code-simplifier@claude-plugins-official": true,
     "stripe@claude-plugins-official": true
   },
+  "outputStyle": "Explanatory",
   "mcpServers": {
     "MCP_DOCKER": {
       "command": "docker",
