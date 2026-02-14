@@ -99,10 +99,22 @@ PYTHON
 
 SESSION_FMT=$(printf "%.2f" "$SESSION_COST")
 
+# Git branch (bright white)
+if [ -n "$CWD" ] && [ -d "$CWD/.git" ]; then
+    BRANCH=$(cd "$CWD" && git --no-optional-locks branch --show-current 2>/dev/null)
+    if [ -n "$BRANCH" ]; then
+        BRANCH_FMT=" │ \033[97m${BRANCH}\033[0m"
+    else
+        BRANCH_FMT=""
+    fi
+else
+    BRANCH_FMT=""
+fi
+
 # Couleurs ANSI
-# Format: 📁 dossier │ Model $Total/jour ($session) │ ~INM↓ ~OUTM↑ │ XX%
+# Format: 📁 dossier │ branch │ Model $Total/jour ($session) │ ~INM↓ ~OUTM↑ │ XX%
 if [ -n "$CWD_SHORT" ]; then
-    printf "\033[94m📁 ${CWD_SHORT}\033[0m │ \033[36m${MODEL}\033[0m \033[33m\$${DAILY_TOTAL}\033[0m\033[90m/jour\033[0m \033[90m(\$${SESSION_FMT})\033[0m │ \033[32m~${EST_INPUT_M}M↓\033[0m \033[31m~${EST_OUTPUT_M}M↑\033[0m │ \033[35m${PERCENT}%%\033[0m"
+    printf "\033[94m📁 ${CWD_SHORT}\033[0m${BRANCH_FMT} │ \033[36m${MODEL}\033[0m \033[33m\$${DAILY_TOTAL}\033[0m\033[90m/jour\033[0m \033[90m(\$${SESSION_FMT})\033[0m │ \033[32m~${EST_INPUT_M}M↓\033[0m \033[31m~${EST_OUTPUT_M}M↑\033[0m │ \033[35m${PERCENT}%%\033[0m"
 else
     printf "\033[36m${MODEL}\033[0m \033[33m\$${DAILY_TOTAL}\033[0m\033[90m/jour\033[0m \033[90m(\$${SESSION_FMT})\033[0m │ \033[32m~${EST_INPUT_M}M↓\033[0m \033[31m~${EST_OUTPUT_M}M↑\033[0m │ \033[35m${PERCENT}%%\033[0m"
 fi
