@@ -75,6 +75,8 @@
     "stripe@claude-plugins-official": true
   },
   "outputStyle": "Explanatory",
+  "language": "french",
+  "skipDangerousModePermissionPrompt": true,
   "mcpServers": {
     "MCP_DOCKER": {
       "command": "docker",
@@ -85,7 +87,7 @@
       ],
       "type": "stdio"
     },
-    "hostinger-mcp": {
+    "hostinger-steedex": {
       "type": "stdio",
       "command": "npx",
       "args": [
@@ -93,6 +95,16 @@
       ],
       "env": {
         "API_TOKEN": "kuHyzsibPmypNBytJ2I19zbkWE9B9GozWcJ4u6sB2ebd7057"
+      }
+    },
+    "hostinger-haraspilot": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "hostinger-api-mcp@latest"
+      ],
+      "env": {
+        "API_TOKEN": "kHhYIsMvKeE1rMedAz5ZAUnzCLSYnRemqcGO0IId46bc40d6"
       }
     }
   }

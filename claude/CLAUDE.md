@@ -56,6 +56,43 @@ Pour chaque concept important, utiliser ce format :
 
 ---
 
+## Règle de sécurité : JAMAIS de suppression irréversible
+
+**Principe absolu** : Ne JAMAIS exécuter d'action qui supprime définitivement des données, fichiers ou ressources sans possibilité de récupération. Toujours privilégier l'approche réversible, même si la suppression définitive semble être la solution optimale.
+
+### Base de données
+
+- **INTERDIT** : `DELETE FROM`, `DROP TABLE`, `TRUNCATE` en production
+- **PRIVILÉGIER** : Soft delete avec colonne `deleted_at` (timestamp nullable)
+- **PRIVILÉGIER** : Archivage dans une table dédiée avant suppression
+- Si l'utilisateur demande explicitement une suppression définitive, **l'avertir des risques** et demander une confirmation explicite
+
+### Fichiers et système
+
+- **INTERDIT** : `rm -rf` sans confirmation, surtout sur des dossiers de données
+- **PRIVILÉGIER** : Déplacer vers un dossier d'archive/backup avant suppression
+- **PRIVILÉGIER** : `git stash` plutôt que `git checkout .` pour les changements non commités
+
+### Git
+
+- **INTERDIT** : `git push --force` sur des branches partagées sans confirmation
+- **INTERDIT** : `git reset --hard` sans s'assurer que les changements sont récupérables
+- **INTERDIT** : `git branch -D` sans vérifier que la branche est mergée
+
+### Docker / Infrastructure
+
+- **INTERDIT** : `docker system prune -a` ou `docker volume rm` sans confirmation
+- **PRIVILÉGIER** : Vérifier ce qui sera supprimé avec `--dry-run` quand disponible
+
+### Exception
+
+Cette règle peut être contournée **uniquement** si :
+1. L'utilisateur demande **explicitement** une suppression irréversible
+2. Je l'ai **averti clairement** que c'est irréversible
+3. L'utilisateur **confirme** après l'avertissement
+
+---
+
 ## Ce qu'il faut éviter
 
 - Écrire du code sans explication
